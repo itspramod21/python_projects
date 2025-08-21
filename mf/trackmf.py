@@ -17,9 +17,7 @@ class MutualFundTracker:
 
 @app.route('/')
 def home():
-    tracker = MutualFundTracker()
-    active_fund_ids = ['118469', '118419', '118834','127042' ,'152651', '122639', '102920', '153198' ,'119788', '149775']
-    inactive_fund_ids = ['125305', '118537', '119826', '119063', '152584', '119648', '120586', '152712', '145552', '152651', '120826']
+  
 
     active_funds_data = []
     for fund_id in active_fund_ids:
